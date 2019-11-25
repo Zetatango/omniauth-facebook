@@ -22,7 +22,7 @@ module OmniAuth
         param_name: 'access_token'
       }
 
-      option :authorize_options, [:scope, :display, :auth_type]
+      option :authorize_options, [:scope, :display, :auth_type, :state]
 
       uid { raw_info['id'] }
 

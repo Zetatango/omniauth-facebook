@@ -7,3 +7,5 @@ pkg/*
 .powder
 tmp
 bin
+.DS_Store
+/.idea/*
